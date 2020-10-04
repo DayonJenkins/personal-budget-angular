@@ -45,7 +45,7 @@
             </div>
 
             <div class ="text-box">
-                <h1>Free</h1>
+                <h1>Chart</h1>
                 <p>
                     <canvas id="myChart" width="400" height="400"></canvas>
                 </p> 
@@ -86,7 +86,10 @@
                 var ctx = document.getElementById("myChart").getContext("2d");
                 var myPieChart = new Chart(ctx, {
                     type: 'pie',
-                    data: dataSource
+                    data: dataSource,
+                    options: {
+                        responsive : false
+                    }
                 });
             }
 
