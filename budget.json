@@ -1,0 +1,32 @@
+{
+    "budget":[
+   {
+       "title": "Eat out",
+       "budget": "25"
+   },
+   {
+       "title": "Rent",
+       "budget": "375"
+   },
+   {
+       "title": "Grocery",
+       "budget": "110"
+   },
+   {
+       "title": "Ice Cream",
+       "budget": "50"
+   },
+   {
+       "title": "Mortgage",
+       "budget": "1285"
+   },
+   {
+       "title": "Electric",
+       "budget": "90"
+   },
+   {
+        "title": "Daycare",
+        "budget": "950"
+   }
+]
+}
