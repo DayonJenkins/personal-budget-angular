@@ -1,10 +1,12 @@
-import { NgModule } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomepageComponent } from './homepage/homepage.component';
 import { LoginComponent } from './login/login.component';
 import { P404Component } from './p404/p404.component';
 import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
 
+import { from } from 'rxjs';
 const routes: Routes = [
   {
     path: '',
@@ -20,9 +22,14 @@ const routes: Routes = [
     component: LoginComponent
   },
   {
+    path: 'contact',
+    component: ContactComponent
+  },
+  {
     path: '**',
     component: P404Component
   }
+
 ];
 
 @NgModule({
